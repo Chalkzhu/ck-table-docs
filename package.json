@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "ck-table-dosc",
+  "name": "ck-table-docs",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
