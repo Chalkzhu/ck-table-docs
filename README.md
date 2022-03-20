@@ -1,6 +1,6 @@
-# ck-table
+# ck-table说明文档
 
->  针对React的一款高性能的表格组件
+>  [ck-table](http://ckdoc.wuliwu.top/)针对React的一款高性能的表格组件
 
 - 使用 div + css 替换原始的table布局
 - 表头/表体分离化
