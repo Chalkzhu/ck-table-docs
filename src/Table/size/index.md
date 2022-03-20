@@ -8,8 +8,8 @@ group:
 ---
 ## 基础表格
 
-> 可以设置大小尺寸： large/small/mini
-> 默认为small,对应表格行高度: 64px/48px/36px
+> 通过设置`size`参数调整表格大小，默认为small   
+> 可以设置大小尺寸： large/small/mini,对应表格行高度: 64px/48px/36px
 
 ```tsx
 import React from 'react';
@@ -20,17 +20,17 @@ const Base = () => {
 
   const columns = [
     {
-      title: 'Name',
+      Header: 'Name',
       accessor: 'name',
       width: 100,
     },
     {
-      title: 'Sex',
+      Header: 'Sex',
       accessor: 'sex',
       width: 100,
     },
     {
-      title: 'Age',
+      Header: 'Age',
       accessor: 'age',
       width: 100,
     },

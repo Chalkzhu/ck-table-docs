@@ -8,33 +8,32 @@ group:
 ---
 ## 序号
 
-> 设置: type="seq" 开启序号列
-> 默认为small,对应表格行高度: 64px/48px/36px
+> 列设置`type="seq"`开启序号列
 
-```tsx
+```jsx
 import React from 'react';
 import CkTable from 'ck-table';
 
 const Base = () => {
   const columns = [
     {
-      title: '#',
+      Header: '#',
       type: 'seq',
       accessor: 'seq',
       width: 100,
     },
     {
-      title: 'Name',
+      Header: 'Name',
       accessor: 'name',
       width: 100,
     },
     {
-      title: 'Sex',
+      Header: 'Sex',
       accessor: 'sex',
       width: 100,
     },
     {
-      title: 'Age',
+      Header: 'Age',
       accessor: 'age',
       width: 100,
     },

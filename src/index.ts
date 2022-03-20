@@ -1,1 +1,9 @@
-export { default as Table } from './Table';
+import Table from './Table';
+import Scroll from './Scroll';
+import Advcanced from './Advcanced';
+
+export {
+  Table,
+  Scroll,
+  Advcanced
+}
